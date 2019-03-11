@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<title>NexaAs - Controle de Vendas</title>
+
+	<link rel="stylesheet" type="text/css" th:href="@{/layout/stylesheets/vendors.min.css}"/>
+	<link rel="stylesheet" type="text/css" th:href="@{/layout/stylesheets/nexaas.css}"/>
+	
+</head>
+<body>
+
+<div class="aw-layout-page">
+	
+	<nav class="navbar navbar-fixed-top navbar-default js-sticky-reference" id="main-navbar">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <ul class="nav  navbar-nav">
+	        <li>
+	          <a href="#" class="js-sidebar-toggle"><i class="fa fa-bars"></i></a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	
+	<section class="aw-layout-content  js-content" layout:fragment="conteudo"></section>
+	
+	<footer class="aw-layout-footer  js-content">
+		<div class="container-fluid">
+			<span class="aw-footer-disclaimer">&copy; Allysson Improta. Todos os direitos reservados.</span>
+		</div>
+	</footer>
+</div>
+
+</body>
+</html>
