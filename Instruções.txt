@@ -1,0 +1,6 @@
+Projeto utilizando Spring boot:
+Banco de dados Postgres
+Configurações no Arquivo appilcation.properties
+  url= jdbc:postgresql://localhost:5432/nexaas
+  username=postgres
+  password=postgres
